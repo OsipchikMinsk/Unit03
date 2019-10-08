@@ -5,16 +5,14 @@ public class Train {
     private int trainNumber;   //номер поезда
     private int timeOfDeparture;  //время отправления
 
-    public Train() {
-    }
 
-    public Train(String destination, int trainNumber, int timeOfDeparture) {
+     Train(String destination, int trainNumber, int timeOfDeparture) {
         this.destination = destination;
         this.trainNumber = trainNumber;
         this.timeOfDeparture = timeOfDeparture;
     }
 
-    public String getDestination() {
+     String getDestination() {
         return destination;
     }
 
@@ -22,7 +20,7 @@ public class Train {
         this.destination = destination;
     }
 
-    public int getTrainNumber() {
+     int getTrainNumber() {
         return trainNumber;
     }
 
@@ -30,7 +28,7 @@ public class Train {
         this.trainNumber = trainNumber;
     }
 
-    public int getTimeOfDeparture() {
+     int getTimeOfDeparture() {
         return timeOfDeparture;
     }
 

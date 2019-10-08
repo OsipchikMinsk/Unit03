@@ -2,12 +2,13 @@ package by.epam.unit03.customer;
 
 import java.util.Arrays;
 
-public class CustomerOperator {
+ class CustomerOperator {
 
 
    private Customer[] customerGroup;
 
-    public CustomerOperator(Customer[] customerGroup) {
+
+    CustomerOperator(Customer[] customerGroup) {
         this.customerGroup = customerGroup;
     }
 

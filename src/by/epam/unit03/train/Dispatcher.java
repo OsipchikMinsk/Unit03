@@ -32,11 +32,11 @@ public class Dispatcher {
             System.out.printf("Train №%d not found \n", trainNumber);
         }
     }
-
-    static Train[] sortByDestination(Train[] trains) { //сортировка по длинне назавания, если название совпадает, то первый котроый отправляется раньше
+    //сортировка по длинне назавания, если название совпадает, то первый котроый отправляется раньше
+    static Train[] sortByDestination(Train[] trains) {
         int size = trains.length;
         for (int i = 0; i < size; i++) {
-            for (int j = 1+i; j < size; j++) {
+            for (int j = 1; j < size-i; j++) {
                 if (trains[i].getDestination().length() > trains[j].getDestination().length()) {
                     Train tmpTrain = trains[i];
                     trains[i] = trains[j];

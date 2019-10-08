@@ -9,7 +9,7 @@ public class Customer implements Comparable<Customer> {
     private long creditCardNumber; //номер кредитной карты
     private  long bankAccountNumber; //номер банковского счета
 
-    public Customer(int id, String lastName, String name, String patronymic, String address,
+     Customer(int id, String lastName, String name, String patronymic, String address,
                     long creditCardNumber, long bankAccountNumber) {
         this.id = id;
         this.lastName = lastName;
@@ -60,7 +60,7 @@ public class Customer implements Comparable<Customer> {
         this.address = address;
     }
 
-    public long getCreditCardNumber() {
+     long getCreditCardNumber() {
         return creditCardNumber;
     }
 
@@ -79,7 +79,7 @@ public class Customer implements Comparable<Customer> {
     @Override
     public String toString() {
         return
-                "User's FIO=>" + lastName +" "+ name + " " + patronymic + " " +'\t'+
+                "User FIO=>" + lastName +" "+ name + " " + patronymic + " " +'\t'+
                 "address=" + address + '\t'+
                 "creditCardNumber=" + creditCardNumber + "\t"+
                 "bankAccountNumber=" + bankAccountNumber +

@@ -5,23 +5,24 @@ public class Time {
     private int minute;
     private int second;
 
-    public Time() {
+    Time() {
         this.hour = 0;
         this.minute = 0;
         this.second = 0;
     }
 
-    public Time(int hour, int minute, int second) {
+     Time(int hour, int minute, int second) {
+
         this.hour = hour;
         this.minute = minute;
         this.second = second;
     }
 
-    public int getHour() {
+    int getHour() {
         return hour;
     }
 
-    public void setHour(int hour) {
+    void setHour(int hour) {
         if (hour<0||hour>23){
             this.hour = 0;
             return;
@@ -29,11 +30,11 @@ public class Time {
         this.hour = hour;
     }
 
-    public int getMinute() {
+    int getMinute() {
         return minute;
     }
 
-    public void setMinute(int minute) {
+    void setMinute(int minute) {
         if (minute<0||minute>59){
             this.minute = 0;
             return;
@@ -41,14 +42,14 @@ public class Time {
         this.minute = minute;
     }
 
-    public int getSecond() {
+    int getSecond() {
         return second;
     }
 
-    public void setSecond(int second) {
+    void setSecond(int second) {
         if (second<0||second>59){
             this.second = 0;
-            return;
+            return ;
         }
         this.second = second;
     }

@@ -2,10 +2,10 @@ package by.epam.unit03.student;
 
 import java.util.Arrays;
 
-public class LogicStudent {
+class StudentLogic {
 
 
-    public void findStudentWithGoodGrades(Student[] students) {
+    void findStudentWithGoodGrades(Student[] students) {
         for (Student s : students) {
             int[] grades = s.getGrades();
            boolean isAccepted = true;

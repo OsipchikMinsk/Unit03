@@ -7,36 +7,35 @@ public class Student {
     private int groupId;  //номер группы
     private int[] grades;// успеваемость
 
-    public Student() {
-    }
 
-    public Student(String fio, int group, int[] grades) {
+
+    Student(String fio, int group, int[] grades) {
         this.fio = fio;
         this.groupId = group;
         this.grades = grades;
     }
 
-    public String getFio() {
+     String getFio() {
         return fio;
     }
 
-    public void setFio(String fio) {
+    private void setFio(String fio) {
         this.fio = fio;
     }
 
-    public int getGroupId() {
+    int getGroupId() {
         return groupId;
     }
 
-    public void setGroup(int group) {
+    private void setGroup(int group) {
         this.groupId = group;
     }
 
-    public int[] getGrades() {
+    int[] getGrades() {
         return grades;
     }
 
-    public void setGrades(int[] grades) {
+    private void setGrades(int[] grades) {
         this.grades = grades;
     }
 
