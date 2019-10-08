@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+
         Train berlin = new Train("Berlin", 1010, 2020);
         Train moscow = new Train("Moscow", 1020, 1020);
         Train berlin1 = new Train("Berlin", 1910, 1020);

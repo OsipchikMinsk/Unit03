@@ -2,7 +2,7 @@ package by.epam.unit03.train;
 
 import java.util.Scanner;
 
-public class Dispatcher {
+ class Dispatcher {
     static Train[] sortByTrainNumber(Train[] trains) {
     int size = trains.length-1;
     for (int i =0;i<size;i++){

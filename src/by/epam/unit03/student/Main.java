@@ -23,6 +23,7 @@ public class Main {
         Student st9 = new Student("Иванов А.А", 16, grades);
         Student st10 = new Student("Иванов А.А", 20, gradesCool);
         Student[] group = new Student[10];
+
         group[0] = st1;
         group[1] = st2;
         group[2] = st3;

@@ -4,7 +4,6 @@ import java.util.Arrays;
 
  class CustomerOperator {
 
-
    private Customer[] customerGroup;
 
 

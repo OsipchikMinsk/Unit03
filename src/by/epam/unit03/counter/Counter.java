@@ -2,29 +2,29 @@ package by.epam.unit03.counter;
 
 import java.util.Random;
 
-public class Counter {
+ class Counter {
     private int min;
     private int max;
     private int count;
 
-    public Counter(){
+     Counter(){
         this.min=0;
         this.max = 1000;
     }
 
-    public Counter(int min, int max) {
+     Counter(int min, int max) {
         this.min = min;
         this.max = max;
         count = new Random().nextInt((max - min) + 1) + min;
     }
 
-    public void increase() {
+     void increase() {
         if (count != max) {
             count++;
         }
     }
 
-    public void decrease() {
+     void decrease() {
         if (count != min) {
             count--;
         }

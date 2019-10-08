@@ -1,6 +1,7 @@
 package by.epam.unit03.customer;
 
 public class Customer implements Comparable<Customer> {
+
     private int id;
     private String lastName; //фамилия
     private String name; //имя

@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
+
         Customer c1 = new Customer(1, "Petrov", "Fedor", "Ivanovich",
                 "Moscow, st.New Arbat 10-4",102030304040405050L, 1);
         Customer c2 = new Customer(2, "Kapula", "Andrej", "Sergeevich",

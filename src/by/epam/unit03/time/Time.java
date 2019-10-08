@@ -54,6 +54,7 @@ public class Time {
         this.second = second;
     }
 
+
     @Override
     public String toString() {
         return "Time{" +

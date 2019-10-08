@@ -5,6 +5,7 @@ package by.epam.unit03.time;
     static Time increaseHour(Time time, int hour){
     return new Time((time.getHour()+hour)%24, time.getMinute(), time.getSecond());
     }
+
     static Time increaseMinutes (Time time, int minute){
         int hour = time.getHour(); //в часах
         int min = time.getMinute(); //действующее время в минутах
@@ -15,6 +16,7 @@ package by.epam.unit03.time;
             time.setSecond(time.getSecond());
             return time;
         }
+
     static Time increaseSeconds(Time time, int seconds) {
         int hour = time.getHour(); //в часах
         int min = time.getMinute(); //действующее время в минутах
@@ -40,6 +42,7 @@ package by.epam.unit03.time;
         time.setHour(timeInSec / 3600);
         return time;
     }
+
      static Time decreaseHour(Time time, int hour){
         int realHour = time.getHour()-hour;
         time.setHour(realHour);

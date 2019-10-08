@@ -14,6 +14,7 @@ public class Main {
         counterDefault.increase();
         counterDefault.increase();
         counterDefault.decrease();
+
         System.out.println(counterDefault.getCount());
     }
 }
